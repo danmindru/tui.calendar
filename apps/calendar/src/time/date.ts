@@ -1,4 +1,4 @@
-import type { DateInterface } from '@toast-ui/date';
+import type { DateInterface } from '@dan-ui/date';
 
 import { MS_PER_MINUTES } from '@src/time/datetime';
 import {

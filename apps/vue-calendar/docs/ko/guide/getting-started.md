@@ -36,8 +36,8 @@ TOAST UI 제품들은 [npm](https://www.npmjs.com/) 패키지 매니저에 등�
 #### npm
 
 ```sh
-npm install @toast-ui/vue-calendar # 최신 버전
-npm install @toast-ui/vue-calendar@<version> # 특정 버전
+npm install @dan-ui/vue-calendar # 최신 버전
+npm install @dan-ui/vue-calendar@<version> # 특정 버전
 ```
 
 ## 사용하기
@@ -50,12 +50,12 @@ TOAST UI 캘린더 Vue Wrapper는 아래 세 가지 방법으로 불러올 수 �
 
 ```js
 /* Node.js 환경에서 ES6 모듈 */
-import Calendar from '@toast-ui/vue-calendar';
+import Calendar from '@dan-ui/vue-calendar';
 ```
 
 ```js
 /* Node.js 환경에서 CommonJS */
-const Calendar = require('@toast-ui/vue-calendar');
+const Calendar = require('@dan-ui/vue-calendar');
 ```
 
 ```js
@@ -71,12 +71,12 @@ IE11의 번들 크기는 기본 번들보다 2배 가량 크기 때문에 반드
 
 ```js
 /* Node.js 환경에서 ES6 모듈 */
-import Calendar from '@toast-ui/vue-calendar/ie11';
+import Calendar from '@dan-ui/vue-calendar/ie11';
 ```
 
 ```js
 /* Node.js 환경에서 CommonJS */
-const Calendar = require('@toast-ui/vue-calendar/ie11');
+const Calendar = require('@dan-ui/vue-calendar/ie11');
 ```
 
 ### CSS
@@ -85,12 +85,12 @@ Calendar를 사용하기 위해서는 TOAST UI 캘린더의 CSS 파일을 추가
 
 ```js
 /* Node.js 환경에서 ES6 모듈 */
-import '@toast-ui/calendar/dist/toastui-calendar.min.css'; // Calendar 스타일
+import '@dan-ui/calendar/dist/toastui-calendar.min.css'; // Calendar 스타일
 ```
 
 ```js
 /* Node.js 환경에서 CommonJS */
-require('@toast-ui/calendar/dist/toastui-calendar.min.css');
+require('@dan-ui/calendar/dist/toastui-calendar.min.css');
 ```
 
 ```html
@@ -108,8 +108,8 @@ Vue 인스턴스나 컴포넌트에서 TOAST UI 캘린더 Vue Wrapper를 불러�
 </template>
 
 <script>
-import Calendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 export default {
   name: 'YourComponent',
@@ -121,8 +121,8 @@ export default {
 ```
 
 ```js
-import Calendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 new Vue({
   el: '#app',
@@ -151,8 +151,8 @@ TOAST UI 캘린더의 [옵션](/docs/ko/apis/options.md)은 Vue 컴포넌트의 
 </template>
 
 <script>
-import Calendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 export default {
   name: 'YourComponent',
@@ -206,8 +206,8 @@ Vue의 `v-on` 디렉티브를 이용하여 캘린더 인스턴스 이벤트를 �
 </template>
 
 <script>
-import Calendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 export default {
   name: 'YourComponent',
@@ -264,8 +264,8 @@ TOAST UI 캘린더 인스턴스를 리턴한다. 이를 이용하여 [캘린더 
 </template>
 
 <script>
-import Calendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 export default {
   name: 'YourComponent',

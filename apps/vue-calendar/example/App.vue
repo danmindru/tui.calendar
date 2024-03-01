@@ -1,37 +1,15 @@
 <template>
   <div>
     <h1>🍞📅 TOAST UI Calendar + Vue</h1>
-    <select
-      v-model="selectedView"
-      class="view-select"
-    >
-      <option
-        v-for="view in viewOptions"
-        :key="view.value"
-        :value="view.value"
-      >
+    <select v-model="selectedView" class="view-select">
+      <option v-for="view in viewOptions" :key="view.value" :value="view.value">
         {{ view.title }}
       </option>
     </select>
     <div class="buttons">
-      <button
-        type="button"
-        @click="onClickTodayButton"
-      >
-        Today
-      </button>
-      <button
-        type="button"
-        @click="onClickMoveButton(-1)"
-      >
-        Prev
-      </button>
-      <button
-        type="button"
-        @click="onClickMoveButton(1)"
-      >
-        Next
-      </button>
+      <button type="button" @click="onClickTodayButton">Today</button>
+      <button type="button" @click="onClickMoveButton(-1)">Prev</button>
+      <button type="button" @click="onClickMoveButton(1)">Next</button>
     </div>
     <span class="date-range">{{ dateRangeText }}</span>
     <ToastUICalendar
@@ -71,7 +49,7 @@
 <script>
 /* eslint-disable no-console */
 import ToastUICalendar from '../src/Calendar';
-import '@toast-ui/calendar/toastui-calendar.css';
+import '@dan-ui/calendar/toastui-calendar.css';
 import 'tui-date-picker/dist/tui-date-picker.min.css';
 import 'tui-time-picker/dist/tui-time-picker.min.css';
 

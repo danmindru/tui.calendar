@@ -1,4 +1,4 @@
-import { TZDate } from '@toast-ui/calendar';
+import { TZDate } from '@dan-ui/calendar';
 
 import { addDate, addHours, subtractDate } from './utils';
 

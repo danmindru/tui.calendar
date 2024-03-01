@@ -32,8 +32,8 @@ TOAST UI products are registered in the [npm](https://www.npmjs.com/) package re
 #### npm
 
 ```sh
-npm install @toast-ui/react-calendar # latest version
-npm install @toast-ui/react-calendar@<version> # specific version
+npm install @dan-ui/react-calendar # latest version
+npm install @dan-ui/react-calendar@<version> # specific version
 ```
 
 ## How to use the calendar
@@ -46,12 +46,12 @@ There are three ways to import TOAST UI Calendar for React depending on the envi
 
 ```js
 /* ES6 module in Node.js environment */
-import Calendar from '@toast-ui/react-calendar';
+import Calendar from '@dan-ui/react-calendar';
 ```
 
 ```js
 /* CommonJS in Node.js environment */
-const Calendar = require('@toast-ui/react-calendar');
+const Calendar = require('@dan-ui/react-calendar');
 ```
 
 ```js
@@ -67,12 +67,12 @@ Since the bundle size of IE11 is about 2x larger than that of the default bundle
 
 ```js
 /* ES6 module in Node.js environment */
-import Calendar from '@toast-ui/react-calendar/ie11';
+import Calendar from '@dan-ui/react-calendar/ie11';
 ```
 
 ```js
 /* CommonJS in Node.js environment */
-const Calendar = require('@toast-ui/react-calendar/ie11');
+const Calendar = require('@dan-ui/react-calendar/ie11');
 ```
 
 ### CSS
@@ -81,12 +81,12 @@ To use the calendar, you need to add a CSS file of TOAST UI Calendar. You can im
 
 ```js
 /* ES6 module in Node.js environment */
-import '@toast-ui/calendar/dist/toastui-calendar.min.css'; // Stylesheet for calendar
+import '@dan-ui/calendar/dist/toastui-calendar.min.css'; // Stylesheet for calendar
 ```
 
 ```js
 /* CommonJS in Node.js environment */
-require('@toast-ui/calendar/dist/toastui-calendar.min.css');
+require('@dan-ui/calendar/dist/toastui-calendar.min.css');
 ```
 
 ```html
@@ -99,8 +99,8 @@ require('@toast-ui/calendar/dist/toastui-calendar.min.css');
 You can load a calendar component and add it to your component.
 
 ```jsx
-import Calendar from '@toast-ui/react-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/react-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 export function YourComponent() {
   return (

@@ -7,7 +7,7 @@ You can use the `Calendar` class to create a calendar instance. You need to spec
 Add a container element where TOAST UI Calendar will be created. **This element must have an appropriate height. (600px or higher is recommended)**
 
 ```js
-import { Calendar } from '@toast-ui/calendar';
+import { Calendar } from '@dan-ui/calendar';
 
 // Passing elements directly
 const container = document.querySelector('#container');
@@ -129,7 +129,7 @@ Generates and returns an HTML string to be rendered by the calendar instance bas
 ```js
 const isSSR = typeof window === 'undefined';
 
-// For client, the calendar will be mounted to the `#container` after initializing the instance, but nothing happens in the server. 
+// For client, the calendar will be mounted to the `#container` after initializing the instance, but nothing happens in the server.
 const calendar = new Calendar('#container');
 
 if (isSSR) {
@@ -811,7 +811,7 @@ In the following cases, `beforeUpdateEvent` is executed.
 
 - When `useFormPopup` and `useDetailPopup` of the calendar instance options are both `true` and the ‘Update’ button is pressed after modifying the event through the event details popup
   - ![Event execution through popup](../../assets/before-update-event-1.gif)
-- When the `useDetailPopup` option is `true` and the `useFormPopup` is `false`, the 'Edit' button inside the event details popup is pressed. 
+- When the `useDetailPopup` option is `true` and the `useFormPopup` is `false`, the 'Edit' button inside the event details popup is pressed.
 - When moving or resizing events by drag and drop, while `isReadOnly` is not `true` among calendar instance options and also `isReadOnly` is not `true` in the properties of individual events.
   - ![Event execution via drag and drop](../../assets/before-update-event-2.gif)
 

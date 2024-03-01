@@ -33,8 +33,8 @@ TOAST UI products are registered in the [npm](https://www.npmjs.com/) package re
 #### npm
 
 ```sh
-npm install @toast-ui/calendar # latest version
-npm install @toast-ui/calendar@<version> # specific version since 2.0
+npm install @dan-ui/calendar # latest version
+npm install @dan-ui/calendar@<version> # specific version since 2.0
 npm install tui-calendar@<version> # 1.x legacy version
 ```
 
@@ -93,12 +93,12 @@ TOAST UI Calendar can be instantiated through the constructor function. There ar
 
 ```js
 /* ES6 module in Node.js environment */
-import Calendar from '@toast-ui/calendar';
+import Calendar from '@dan-ui/calendar';
 ```
 
 ```js
 /* CommonJS in Node.js environment */
-const Calendar = require('@toast-ui/calendar');
+const Calendar = require('@dan-ui/calendar');
 ```
 
 ```js
@@ -114,12 +114,12 @@ Since the bundle size of IE11 is about 30% larger than that of the default bundl
 
 ```js
 /* ES6 module in Node.js environment */
-import Calendar from '@toast-ui/calendar/ie11';
+import Calendar from '@dan-ui/calendar/ie11';
 ```
 
 ```js
 /* CommonJS in Node.js environment */
-const Calendar = require('@toast-ui/calendar/ie11');
+const Calendar = require('@dan-ui/calendar/ie11');
 ```
 
 ```html
@@ -136,12 +136,12 @@ To use the calendar, you need to add a CSS file. You can import the CSS file thr
 
 ```js
 /* ES6 module in Node.js environment */
-import '@toast-ui/calendar/dist/toastui-calendar.min.css'; // Stylesheet for calendar
+import '@dan-ui/calendar/dist/toastui-calendar.min.css'; // Stylesheet for calendar
 ```
 
 ```js
 /* CommonJS in Node.js environment */
-require('@toast-ui/calendar/dist/toastui-calendar.min.css');
+require('@dan-ui/calendar/dist/toastui-calendar.min.css');
 ```
 
 ```html

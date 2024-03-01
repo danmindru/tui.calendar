@@ -1,4 +1,4 @@
-import { TZDate } from '@toast-ui/calendar';
+import { TZDate } from '@dan-ui/calendar';
 
 export function clone(date) {
   return new TZDate(date);

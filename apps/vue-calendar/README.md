@@ -3,7 +3,7 @@
 > This is a Vue component wrapping [TOAST UI Calendar](/apps/calendar/).
 
 [![vue2](https://img.shields.io/badge/vue-2.x-4fc08d.svg)](https://v2.vuejs.org/)
-[![npm version](https://img.shields.io/npm/v/@toast-ui/vue-calendar.svg)](https://www.npmjs.com/package/@toast-ui/vue-calendar)
+[![npm version](https://img.shields.io/npm/v/@dan-ui/vue-calendar.svg)](https://www.npmjs.com/package/@dan-ui/vue-calendar)
 [![license](https://img.shields.io/github/license/nhn/tui.calendar.svg)](https://github.com/nhn/tui.calendar/blob/master/LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.calendar/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![code with hearth by NHN Cloud](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-NHN_Cloud-ff1414.svg)](https://github.com/nhn)
@@ -47,7 +47,7 @@ To disable GA, set the [`usageStatistics` option](/docs/en/apis/options.md#usage
 ### Using npm
 
 ```sh
-npm install --save @toast-ui/vue-calendar
+npm install --save @dan-ui/vue-calendar
 ```
 
 ## 📅 Usage
@@ -62,14 +62,14 @@ You can use Toast UI Calendar for Vue as moudule format or namespace. Also you c
 
 ```js
 /* ES6 module in Node.js environment */
-import ToastUICalendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.css';
+import ToastUICalendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.css';
 ```
 
 ```js
 /* CommonJS in Node.js environment */
-const Calendar = require('@toast-ui/vue-calendar');
-require('@toast-ui/calendar/dist/toastui-calendar.css');
+const Calendar = require('@dan-ui/vue-calendar');
+require('@dan-ui/calendar/dist/toastui-calendar.css');
 ```
 
 ```js
@@ -85,8 +85,8 @@ const Calendar = tui.VueCalendar;
 </template>
 
 <script>
-import Calendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 export default {
   name: 'YourComponent',
@@ -98,8 +98,8 @@ export default {
 ```
 
 ```js
-import Calendar from '@toast-ui/vue-calendar';
-import '@toast-ui/calendar/dist/toastui-calendar.min.css';
+import Calendar from '@dan-ui/vue-calendar';
+import '@dan-ui/calendar/dist/toastui-calendar.min.css';
 
 new Vue({
   el: '#app',

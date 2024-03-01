@@ -54,7 +54,7 @@ Unsure where to begin contributing to TOAST UI? You can start by looking through
 - Checkout to the right branch
 - Install dependencies by `npm install`
 - Start development by `npm run develop`
-  - For wrappers, `npm run develop --workspace @toast-ui/react-calendar` or `npm run develop --workspace @toast-ui/vue-calendar`
+  - For wrappers, `npm run develop --workspace @dan-ui/react-calendar` or `npm run develop --workspace @dan-ui/vue-calendar`
 
 ### Make changes
 
@@ -66,7 +66,7 @@ Unsure where to begin contributing to TOAST UI? You can start by looking through
 
 #### Check Code Style
 
-Run `npm run lint` and make sure all the tests pass.  
+Run `npm run lint` and make sure all the tests pass.
 
 #### Test
 

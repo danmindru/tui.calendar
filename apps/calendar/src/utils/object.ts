@@ -43,24 +43,26 @@ export function mergeObject<Target, Source extends DeepPartial<Target>>(
     return target;
   }
 
+  const result = Object.assign({}, target) as Target;
+
   Object.keys(source).forEach((k) => {
     const targetKey = k as keyof Target;
     const sourceKey = k as keyof Source;
 
     if (
       !Array.isArray(source[sourceKey]) &&
-      isObject(target[targetKey]) &&
+      isObject(result[targetKey]) &&
       isObject(source[sourceKey]) &&
       !(source[sourceKey] instanceof TZDate)
     ) {
-      target[targetKey] = mergeObject(
-        target[targetKey],
+      result[targetKey] = mergeObject(
+        result[targetKey],
         source[sourceKey] as DeepPartial<Target[keyof Target]>
       );
     } else {
-      target[targetKey] = source[sourceKey] as unknown as Target[keyof Target];
+      result[targetKey] = source[sourceKey] as unknown as Target[keyof Target];
     }
   });
 
-  return target;
+  return result;
 }

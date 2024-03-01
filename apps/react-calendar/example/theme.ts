@@ -1,4 +1,4 @@
-import type { Options } from '@toast-ui/calendar';
+import type { Options } from '@dan-ui/calendar';
 
 export const theme: Options['theme'] = {
   common: {
